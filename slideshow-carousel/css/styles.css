@@ -40,15 +40,24 @@ body {
 }
 
 .arrow-right {
-    background: beige;
+    background: azure;
     justify-self: flex-end;
     align-self: center;
     width: 100px;
     height: 100px;
 }
 
-.caption {}
+.caption {
+    display: block;
+    background: bisque;
+    width: 100px;
+    height: 20px;
+    margin: 0 auto;
+    align-self: flex-end;
+}
 
 .buttons {}
+
+.button-container {}
 
 .button {}
