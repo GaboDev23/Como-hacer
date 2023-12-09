@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.carousel {
+    height: 40%;
+}
+
+.slide {
+    height: 80%;
+    position: relative;
+    background: antiquewhite;
+    display: flex;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.number {
+    position: absolute;
+    top: .5em;
+    left: .5em;
+}
+
+.arrow-left {
+    justify-self: flex-start;
+    align-self: center;
+}
+
+.arrow-right {
+    background: beige;
+    justify-self: flex-end;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+}
+
+.caption {}
+
+.buttons {}
+
+.button {}
