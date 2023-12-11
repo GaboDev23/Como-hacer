@@ -2,29 +2,89 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     height: 100vh;
 }
 
-.button {}
+.button {
+    background: aliceblue;
+    padding: 1em 1.5em;
+    border-radius: .5em;
+    border: none;
+    outline: none;
+}
 
-.modal {}
+.modal {
+    background: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.form {}
+.form {
+    background: aqua;
+    width: 80%;
+    height: 90%;
+    position: relative;
+}
 
-.cross {}
+.cross {
+    background: aquamarine;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+}
 
-.avatar-container {}
+.avatar-container {
+    background: azure;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.avatar {}
+.avatar {
+    background: beige;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
 
-.data {}
+.inputs {
+    background: bisque;
+    height: 60%;
+}
 
-.input {}
+.data {
+    background: black;
+    height: 46%;
+    width: 90%;
+    margin: auto;
+}
 
-.login {}
+label {
+    color: #fff;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding: .6em;
+}
+
+.login {
+    
+}
 
 .check {}
 
