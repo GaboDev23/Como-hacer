@@ -10,14 +10,13 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <button class="button"></button>
+    <button class="button" id="button">Login</button>
 
-    <div class="modal">
-
-        <form action="#" method="post" class="form">
-            <button class="cross"></button>
+    <div class="modal" id="modal">
+        <form action="#" method="post" class="form" id="form">
+            <button class="cross">&times;</button>
             <div class="avatar-container">
-                <img src="" alt="Avatar" class="avatar">
+                <img src="imgs/img_avatar2.png" alt="Avatar" class="avatar">
             </div>
 
             <div class="inputs">
@@ -29,18 +28,18 @@
                 <div class="data">
                     <label for="password">Password</label>
                     <input type="password" id="password" class="input" placeholder="Enter Password">
+
+                    <input type="submit" class="login" value="Login"></input>
+
+                    <input type="checkbox" id="check" class="check" checked> 
+                    <label for="check">Remember me</label>
                 </div>
-    
-                <button class="login"></button>
-    
-                <input type="checkbox" id="check" class="check" checked> 
-                <label for="check"></label>
             </div>
 
             <div class="other-options">
-                <button class="cancel"></button>
+                <button class="cancel" id="cancel">Cancel</button>
 
-                <span class="forgot">Forgor <a href="#">password?</a></span>
+                <span class="forgot">Forgot <a href="#" id="forgot">password?</a></span>
             </div>
         </form>
     </div>
